@@ -2,6 +2,10 @@
     n_estimators=1000, min_samples_leaf= 4, oob_score = True, n_jobs=-1)
     0.2704
     
+3.random_forest = ensemble.RandomForestClassifier(
+    n_estimators=1000, min_samples_leaf= 6, oob_score = True, n_jobs=-1)
+0.1528
+
 2.random_forest = ensemble.RandomForestClassifier(
     n_estimators=1000, min_samples_leaf= 8, oob_score = True, n_jobs=-1)
 err rate: 0.1704
@@ -10,3 +14,4 @@ err rate: 0.1704
 3.random_forest = ensemble.RandomForestClassifier(
     n_estimators=1000, min_samples_leaf= 12, oob_score = True, n_jobs=-1)
 0.19440000000000002
+
